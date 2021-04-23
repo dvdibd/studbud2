@@ -1,0 +1,19 @@
+{
+  "name": "studbud",
+  "version": "1.0.0",
+  "description": "Usefull study tool for students",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvdibd/studbud.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dvdibd/studbud/issues"
+  },
+  "homepage": "https://github.com/dvdibd/studbud#readme"
+}
