@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>StudBud</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <div class="grid.container">
+        <div class="content">
+            <form id="taskform">
+
+                <!-- task -->
+                <label for="task">Task</label>
+                <input type="text" name="task" id="taskInput">
+                <!-- dueDate -->
+                <label for="dueDate">Due Date</label>
+                <input type="date" name="dueDate" id="dueDateInput" value="Due Date">
+                <!-- estTime -->
+                <label for="estTime">Est. Time of Completion</label>
+                <input type="time" name="estTime" id="estimatedTimeInput" value="Est. Time of Completion">
+                <!-- priority -->
+                <label for="priority">Priority</label>
+                <select name="priority" id="priorityInput">
+                    <option value="">Select</option>
+                    <option value="Low">Low</option>
+                    <option value="Medium">Medium</option>
+                    <option value="High">High</option>
+                </select>
+
+                <!-- status -->
+                <label for="status">Status</label>
+
+
+                <button type="submit">Submit</button>
+            </form>
+            <ul id="tasklist">
+            </ul>
+        </div>
+        <div class="music">music</div>
+        <div class="timer">timer</div>
+        <div class="fileManagement">file</div>
+        <div class="tabs">tabs</div>
+    </div>
+
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>

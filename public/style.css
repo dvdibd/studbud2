@@ -1,0 +1,32 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "tabs content timer" "fileManagement content timer" "music music music";
+}
+
+.content {
+    grid-area: content;
+    background-color: aqua;
+}
+
+.music {
+    grid-area: music;
+    background-color: aquamarine;
+}
+
+.timer {
+    grid-area: timer;
+    background-color: blueviolet;
+}
+
+.fileManagement {
+    grid-area: fileManagement;
+    background-color: brown;
+}
+
+.tabs {
+    grid-area: tabs;
+    background-color: aliceblue;
+}
